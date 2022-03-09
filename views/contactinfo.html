@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+* {
+                box-sizing: border-box;
+            }
+
+            div {
+                padding: 5px 0px;
+            }
+            a {
+                color: white;
+            }
+
+            #logo {
+                background-color: grey;
+                padding: 50px;
+                font-weight: bolder;
+                font-size: 50px;
+            }
+
+            #menu {
+                background-color: grey;
+                color:black;
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            #main-content {
+                background-color: grey;
+                color: white;
+                padding: 300px;
+            }
+
+            #main-content::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+        
+            #footer {
+                background-color: black;
+                color: white;
+                font-size: 20px;
+            }
+
+            ul 
+            {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:black;
+            }
+
+            li 
+            {
+            float: left;
+            }
+
+            li a 
+            {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+            li a:hover 
+            {
+            background-color:grey;
+            } 
+        </style>
+
+    </head>
+    <body>
+        <div id="logo" href="index.html">ATN shop</div>
+
+        <div id="menu">
+            <ul>
+                <li><a class="active" href="/">Home</a></li>
+                <li><a href="/product">Product</a></li>
+                <li><a href="/cart">Cart</a></li>
+                <li><a href="/contactinfo">Contact info</a></li>
+            </ul>
+        </div>
+
+        <div id="main-content">
+            Contact info: <br>
+            Manager: Bennie<br>
+            Phone number: (+84) 998877665<br>
+            Email: abc@gmail.com<br>
+            Social media:<br>
+            <a href="https://www.instagram.com/swimmin_on_da_beet/">Instagram</a><br>
+        </div>
+
+        <div id="footer">
+
+            Contact me:<br>
+            Bennie<br>
+            (+84) 998877665<br>
+            | <a href="https://www.instagram.com/swimmin_on_da_beet/">Instagram</a> |
+        </div>
+
+    </body>
+</html>
